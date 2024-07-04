@@ -19,7 +19,7 @@ const About = () => {
                 </div>
                 <div>
                 <h1 className="mx-auto mt-10 font-Wittgenstein border-purple-700  lg:text-5xl  text-3xl font-bold text-white mb-2  text-center shadow-slate-400">
-             My Education 
+             My Education 🎓
                 </h1>  
                 <div className="text-gray-300 border-t-2 border-green-500 w-[147px] mx-auto pb-2 mb-10 "> </div>
                 <div className="flex flex-wrap justify-center mt-12 gap-8">
