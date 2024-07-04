@@ -52,7 +52,7 @@ const projects = [
         technologies: ["HTML", "CSS", "Tailwindcss","JavaScript", "React", "Node.js",  "Firebase", "MongoDB"],
         liveLink: "https://tourism-management-websi-a73be.web.app",
         githubClient: "https://github.com/Oishee90/tourism-management-website-client10",
-        githubServer: "hhttps://github.com/Oishee90/tourism-management-website-server10",
+        githubServer: "https://github.com/Oishee90/tourism-management-website-server10",
         imageUrl: "https://i.ibb.co/XVW3bj0/journey.png" // Replace with actual image URL
     },
     {

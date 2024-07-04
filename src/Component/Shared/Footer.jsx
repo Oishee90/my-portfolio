@@ -15,6 +15,7 @@ const Footer = () => {
       <span className="text-xl"> Frontend Web Developer</span>
      
     </p>
+    <p className="text-xs text-white">© 2024 Oishee Khan. All Rights Reserved.</p>
   </div>
   <div>
     <h6 className="  text-white  font-bold text-xl font-Wittgenstein">My Social Links</h6>
