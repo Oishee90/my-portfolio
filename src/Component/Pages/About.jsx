@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoSchool } from "react-icons/io5";
 
 const About = () => {
     return (
@@ -22,28 +23,43 @@ const About = () => {
                 </h1>  
                 <div className="text-gray-300 border-t-2 border-green-500 w-[147px] mx-auto pb-2 mb-10 "> </div>
                 <div className="flex flex-wrap justify-center mt-12 gap-8">
-                    <div className="max-w-md w-full bg-gray-800 text-white shadow-lg rounded-lg overflow-hidden">
-                        <div className="px-4 py-2">
-                            <h2 className="font-bold text-xl text-white mb-2">Education</h2>
-                            <div className="text-gray-300 border-t-2 border-gray-600 pb-2"> </div>
-                            <div className="text--300">
-                                <p className="text-base font-Wittgenstein ">Institute Name: <span className="font-bold"> MAHMS And College</span></p>
-                                <p className="text-base font-Wittgenstein mt-2 mb-4">Exam: <span className="font-bold"> SSC (3.78 out of 5 GPA)</span></p>
-                                <p className="text-base font-Wittgenstein">Subject: <span className="font-bold"> Science</span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="max-w-md w-full bg-gray-800 text-white shadow-lg rounded-lg overflow-hidden">
-                        <div className="px-4 py-2">
-                            <h2 className="font-bold text-xl text-white mb-2">Course</h2>
-                            <div className="text-gray-300 border-t-2 border-gray-600 pb-2"> </div>
-                            <div className="text-white">
-                                <p className="text-base font-Wittgenstein">Institute Name: <span className="font-bold">Programming Hero</span></p>
-                                <p className="text-base font-Wittgenstein mt-4 mb-4">Course: <span className="font-bold">Web Development</span></p>
-                                <p className="text-base font-Wittgenstein">Certificate: <span className="font-bold">View</span></p>
-                            </div>
-                        </div>
-                    </div>
+           
+  <div className="max-w-md w-full bg-[#131842] font-raleway border-2 border-violet-500 shadow-lg shadow-slate-400  text-white rounded-lg overflow-hidden">
+  <p className="text-green-400  mx-auto text-center mt-2">2020-Present</p>
+    <div className="px-4 py-2 flex items-center gap-5 justify-between">
+      <div className="text-4xl text-green-500 mx-auto"><IoSchool /></div> {/* Adjusted size and color */}
+      <div>
+        {/* Green color and medium font weight */}
+        <h1 className="text-xl font-bold font-raleway mt-5 mb-5 ">DIPLOMA IN ENGINEERING</h1> {/* Bold text */}
+        <h2 className='mb-5'>Depertment of Cst ,8th semester</h2>
+        <h2 className='mb-5'>Dhaka Mohila Polytechnic Institute</h2> {/* Normal text */}
+      </div>
+    </div>
+</div>
+<div className="max-w-md w-full bg-[#131842] font-raleway border-2 border-violet-500 shadow-lg shadow-slate-400  text-white rounded-lg overflow-hidden">
+  <p className="text-green-400  mx-auto text-center mt-2">2019-2020</p>
+    <div className="px-4 py-2 flex items-center gap-5 justify-between">
+      <div className="text-4xl text-green-500 mx-auto"><IoSchool /></div> {/* Adjusted size and color */}
+      <div>
+        {/* Green color and medium font weight */}
+        <h1 className="text-xl font-bold font-raleway mt-5 mb-5 ">SECENDORY SCHOOL CERTIFICATE</h1> 
+        <h2 className='mb-5'>SSC (3.78 out GPA5)</h2> {/* Bold text */}
+        <h2 className='mb-5'>MAHM School And Collage</h2> {/* Normal text */}
+      </div>
+    </div>
+</div>
+<div className="max-w-md w-full bg-[#131842] font-raleway border-2 border-violet-500 shadow-lg shadow-slate-400  text-white rounded-lg overflow-hidden">
+  <p className="text-green-400  mx-auto text-center mt-2">31/12/2023 - 24/06/2024</p>
+    <div className="px-4 py-2 flex items-center gap-5 justify-between">
+      <div className="text-4xl text-green-500 mx-auto"><IoSchool /></div> {/* Adjusted size and color */}
+      <div>
+        {/* Green color and medium font weight */}
+        <h1 className="text-xl font-bold font-raleway mt-5 mb-5 ">FRESHER MERN STACK DEVELOPER</h1> 
+        <h2 className='mb-5'>Learning Frontend Developing 6months</h2>
+        <h2 className='mb-5'>Programming Hero</h2> {/* Normal text */}
+      </div>
+    </div>
+</div>
                 </div>
                 </div>
                
