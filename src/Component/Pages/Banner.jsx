@@ -1,14 +1,21 @@
 import img from "../../assets/oishee2-removebg-preview.png";
-
+import resumeFile from '../../assets/OisheeCv.pdf'
+import { FaFileDownload } from "react-icons/fa";
 const Banner = () => {
-    // const handleDownloadResume = () => {
-    //     const link = document.createElement('a');
-    //     link.href = resumeFile;
-    //     link.setAttribute('download', 'Oishee_Khan_Resume.txt'); // Name of the file to download
-    //     document.body.appendChild(link);
-    //     link.click();
-    //     document.body.removeChild(link);
-    // };
+    const handleDownloadResume = () => {
+        fetch(resumeFile)
+            .then(response => response.blob())
+            .then(blob => {
+                const url = window.URL.createObjectURL(new Blob([blob]));
+                const link = document.createElement('a');
+                link.href = url;
+                link.setAttribute('download', 'Oishee_Khan_Resume.pdf');
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            })
+            .catch(error => console.error('Error downloading the file:', error));
+    };
     return (
         <div className=" h-auto  lg:h-[500px] flex justify-center items-center py-10 f">
             <div className="container mx-auto px-6 lg:flex lg:items-center  lg:gap-12">
@@ -32,9 +39,9 @@ const Banner = () => {
                         Frontend Developer | Passionate about Crafting User-Centric Experiences. 
                     </h2>
                     <button
-                        className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 mt-4 rounded-lg transition duration-300 ease-in-out"
-                        // onClick={handleDownloadResume}
-                    >
+                        className="btn mx-auto text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... rounded-2xl border-none text-white py-2 px-4 mt-4 transition duration-300 ease-in-out flex items-center gap-2"
+                        onClick={handleDownloadResume}
+                    ><FaFileDownload />
                         Download Resume
                     </button>
                 </div>

@@ -14,7 +14,9 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        
         document.getElementById('contact-form').submit();
+        
     };
 
     return (

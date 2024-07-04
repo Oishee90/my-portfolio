@@ -69,7 +69,7 @@ const projects = [
         liveLink: "https://residential-web-project.web.app",
         githubClient: "https://github.com/Oishee90/make-private-repo-public9",
        
-        imageUrl: "https://i.ibb.co/GVvcHHd/Screenshot-10.png" // Replace with actual image URL
+        imageUrl: "https://i.ibb.co/TrgtgFn/skyVista.png" // Replace with actual image URL
     }
 
 ];
