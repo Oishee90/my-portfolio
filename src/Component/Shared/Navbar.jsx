@@ -6,7 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 import { GrTechnology } from "react-icons/gr";
 import { GrContact } from "react-icons/gr";
 import { IoPersonCircleSharp } from "react-icons/io5";
-import resumeFile from '../../assets/OisheeCv.pdf'
+import resumeFile from '../../assets/oishe_resume.pdf'
 import { FaFileDownload } from "react-icons/fa";
 
 const Navbar = () => {
