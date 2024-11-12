@@ -1,7 +1,7 @@
 import { FaHtml5, FaCss3Alt } from 'react-icons/fa'; // Import icons for HTML5 and CSS3 (example)
 import { IoLogoJavascript } from 'react-icons/io'; // Import icon for JavaScript (example)
 
-import { SiTailwindcss,SiReact,SiFirebase,SiNodedotjs, SiMongodb  } from "react-icons/si";
+import { SiTailwindcss,SiReact,SiFirebase,SiNodedotjs, SiMongodb ,SiNextdotjs,SiExpress  } from "react-icons/si";
 const Skill = () => {
     return (
         <div id='skill' className="mt-32 py-12 bg-gray-900 min-h-screen border-t-2  border-purple-400 rounded-2xl">
@@ -30,7 +30,12 @@ const Skill = () => {
                     </div>
                     <div className="flex items-center justify-center p-4 hover:border-2 hover:border-violet-300 transition transform duration-300 ease-in-out hover:scale-105 rounded-3xl hover:bg-[#17191e] shadow-xl bg-[#31353e]">
                         <SiReact className="text-6xl text-blue-400" />
-                        <span className="text-white font-bold ml-4 text-xl font-Wittgenstein">React</span>
+                        <span className="text-white font-bold ml-4 text-xl font-Wittgenstein">React.js</span>
+                    </div>
+                   
+                    <div className="flex items-center justify-center p-4 hover:border-2 hover:border-violet-300 transition transform duration-300 ease-in-out hover:scale-105 rounded-3xl hover:bg-[#17191e] shadow-xl bg-[#31353e] ">
+                    <SiExpress className="text-6xl text-white ml-4" />
+                        <span className="text-white font-bold ml-4 text-xl font-Wittgenstein">Express.js</span>
                     </div>
                     <div className="flex items-center justify-center p-4 hover:border-2 hover:border-violet-300 transition transform duration-300 ease-in-out hover:scale-105 rounded-3xl hover:bg-[#17191e] shadow-xl bg-[#31353e]">
                         <SiFirebase className="text-6xl text-yellow-500" />
@@ -44,6 +49,11 @@ const Skill = () => {
                         <SiMongodb className="text-6xl text-green-400" />
                         <span className="text-white font-bold ml-4 text-xl font-Wittgenstein">MongoDB</span>
                     </div>
+                    <div className="flex items-center justify-center p-4 hover:border-2 hover:border-violet-300 transition transform duration-300 ease-in-out hover:scale-105 rounded-3xl hover:bg-[#17191e] shadow-xl bg-[#31353e] ">
+                       <SiNextdotjs className="text-6xl text-white ml-4" />
+                        <span className="text-white font-bold ml-4 text-xl font-Wittgenstein">Next.js</span>
+                    </div>
+                   
                     {/* <div className="flex items-center justify-center p-4 bg-gray-800 bg-opacity-50 rounded-lg">
                         <SiTailwindcss className="text-6xl text-cyan-500" />
                         <span className="text-white ml-4 text-xl">Tailwind CSS</span>
