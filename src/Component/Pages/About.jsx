@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import { IoSchool } from "react-icons/io5";
 
@@ -43,7 +44,7 @@ const About = () => {
       <div>
         {/* Green color and medium font weight */}
         <h1 className="text-xl font-bold font-raleway mt-5 mb-5 ">SECENDORY SCHOOL CERTIFICATE</h1> 
-        <h2 className='mb-5'>SSC (3.78 out GPA5)</h2> {/* Bold text */}
+        <h2 className='mb-5'>SSC (4.78 out GPA5)</h2> {/* Bold text */}
         <h2 className='mb-5'>MAHM School And Collage</h2> {/* Normal text */}
       </div>
     </div>

@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import { FaLinkedin, FaFacebook, FaGithub } from 'react-icons/fa';
+import { FaXTwitter, FaInstagram, FaFacebookF } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -30,17 +32,15 @@ const Contact = () => {
                 <p className='text-white font-raleway mx-auto text-xl  text-center mb-10'>Have questions, suggestions, or want to collaborate on a project? Feel free to drop me a message! I'm excited to hear from you and discuss how we can work together to bring ideas to life.</p>
                 <div className="text-center mb-8">
                     <p className="text-xl text-white font-bold font-raleway">Email: <a href="mailto:oisheekhan90@gmail.com" className="text-purple-600">oisheekhan90@gmail.com</a></p>
-                    <div className="flex justify-center space-x-4 mt-4">
-                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-900">
-                            <FaLinkedin size={30} />
-                        </a>
-                        <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-900">
-                            <FaFacebook size={30} />
-                        </a>
-                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-900">
-                            <FaGithub size={30} />
-                        </a>
-                    </div>
+                    <div className="flex justify-center items-center gap-4 mt-3">
+    <a href='https://x.com/khan_oishee'><FaXTwitter className="fill-current font-extrabold w-[24px] h-[24px] text-white" /></a>
+      <a href='https://www.instagram.com/tasmim_oiishee/'><FaInstagram  className="fill-current font-extrabold w-[24px] h-[24px] text-white" /></a>
+      <a href='https://www.facebook.com/profile.php?id=100057513260363'><FaFacebookF className="fill-current w-[24px] h-[24px] text-white" /></a>
+      <a href='https://github.com/Oishee90'><FaGithub className="fill-current w-[24px] h-[24px] text-white" /></a>
+      <a href='https://www.linkedin.com/in/oishee-khan/'><FaLinkedin className="fill-current w-[24px] h-[24px] text-white" /></a>
+      
+   
+    </div>
                 </div>
                 <div className="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
                     <form id="contact-form" action="https://formsubmit.co/oisheekhan90@gmail.com" method="POST" onSubmit={handleSubmit}>

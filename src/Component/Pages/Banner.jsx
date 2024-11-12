@@ -1,5 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import img from "../../assets/oishee2-removebg-preview.png";
-import resumeFile from '../../assets/OisheeCv.pdf'
+import resumeFile from '../../assets/resumemy.pdf'
 import { FaFileDownload } from "react-icons/fa";
 const Banner = () => {
     const handleDownloadResume = () => {
