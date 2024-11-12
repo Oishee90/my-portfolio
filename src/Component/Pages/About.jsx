@@ -15,7 +15,7 @@ const About = () => {
                         Hi, I'm Oishee! 👋 I'm a passionate and hardworking front-end developer who loves coding and creating responsive websites. I have expertise in HTML, CSS, JavaScript, and React, and I'm always eager to learn more.
                     </p>
                     <p className="mt-4">
-                        Currently, I'm studying at the DMPI Department of CST, enhancing my skills and knowledge. I enjoy collaborating with others and sharing ideas to bring innovative projects to life. Let's connect and build something amazing together!
+                        Currently, I'm studying at the DMPI Department of CST, enhancing my skills and knowledge. I enjoy collaborating with others and sharing ideas to bring innovative projects to life.Recently, I completed a team project built with Next.js, where I gained hands-on experience with the framework. Let's connect and build something amazing together!
                     </p>
                 </div>
                 <div>
