@@ -23,6 +23,24 @@ import {Autoplay, Navigation, Pagination,  } from 'swiper/modules';
 `;
 const projects = [
     {
+        "name": "MeetWise (Team Project)",
+        "description": "MeetWise is a meeting management platform that allows users to create, book, and manage meetings. As a collaborative team project, I contributed 90% to the frontend development using Next.js, with some backend work. The key features I worked on include creating meetings, meeting libraries, and the meeting booking system.",
+         "features": [
+            "Create Meetings: Users can schedule and create meetings with details.",
+            "Meeting Library: Users can view a library of past and upcoming meetings.",
+            "Meeting Booking: Allows users to book meetings with others easily.",
+            "Meeting Analytics: Users can view insights and statistics about meetings.",
+            "Change Language: Users can change the language of the platform based on preference.",
+            "Notification System: Users get notifications when meetings are booked, canceled, or updated."
+        ],
+        "technologies": ["Next.js", "React", "Socket.IO", "Node.js", "MongoDB", "CSS", "Tailwind CSS", "Firebase"],
+        "liveLink": "https://meetwise-one.vercel.app",
+        "githubClient": "https://github.com/2244jhalak/meetwise",
+        "githubServer": "https://github.com/2244jhalak/meetwise",
+        "imageUrl": "https://i.ibb.co.com/pxVsPLG/meetwisw.png"
+    },
+    
+    {
         name: "FoodShareHub",
         description: "FoodShareHub is a Community Food Sharing and Surplus Reduction Platform. This platform aims to connect food donors with those in need, helping to reduce food waste and hunger in the community. The project involves a full stack implementation using React, Firebase, Node.js, and MongoDB.",
         features: [
@@ -56,6 +74,29 @@ const projects = [
         imageUrl: "https://i.ibb.co/XVW3bj0/journey.png" // Replace with actual image URL
     },
     {
+        name: "HealthMart",
+        description: "HealthMart is a multi-vendor e-commerce platform for medicines and healthcare products, offering seamless user experiences using the MERN stack.",
+        features: [
+            "Responsive Design",
+            "User Authentication",
+            "Product Management",
+            "Real-time Notifications",
+            "Dashboards (Admin, Seller, User)",
+            "Shopping Cart & Checkout (Stripe)",
+            "Invoice Generation",
+            "Advanced Filtering"
+        ],
+        technologies: [
+            "React.js", "Node.js", "Express.js", "MongoDB", 
+            "Firebase Authentication", "Stripe", "Vercel"
+        ],
+        liveLink: "https://medicine-selling-website.web.app", // Replace with actual live link
+        githubClient: "https://github.com/Oishee90/a12-healthmart-website", // Replace with actual client repository link
+        githubServer: "https://github.com/Oishee90/a12-healthmart-web-server", // Replace with actual server repository link
+        imageUrl: "https://i.ibb.co.com/cCJj8TB/Health-Martpng.png" // Replace with actual image URL
+    },
+    
+    {
         name: "Sky Vista",
         description: "Sky Vista is a responsive real estate project built using React, offering a unique design and seamless user experience across all devices. The project utilizes environment variables for Firebase configuration keys, ensuring security and flexibility.",
         features: [
@@ -70,7 +111,25 @@ const projects = [
         githubClient: "https://github.com/Oishee90/make-private-repo-public9",
        
         imageUrl: "https://i.ibb.co/TrgtgFn/skyVista.png" // Replace with actual image URL
+    },
+    {
+        name: "Book Face Website",
+        description: "Book Face is an interactive website where you can explore book descriptions, manage your wishlist and readlist, read reviews, and visualize book popularity through graphs.",
+        features: [
+            "Book Descriptions",
+            "Wishlist and Readlist Management",
+            "Book Reviews",
+            "Graph Visualization",
+            "Responsive Design"
+        ],
+        technologies: [
+            "HTML", "CSS", "JavaScript", "React.js", "Node.js"
+        ],
+        liveLink: "https://a8-book-list-website.vercel.app", // Replace with actual live link
+        githubClient: "https://github.com/Oishee90/a8-bookList-website", // Replace with actual client repository link
+        imageUrl: "https://i.ibb.co.com/NnLhBnk/book.png" // Replace with actual image URL
     }
+    
 
 ];
 
