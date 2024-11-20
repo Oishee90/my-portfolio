@@ -33,7 +33,7 @@ const projects = [
             "Change Language: Users can change the language of the platform based on preference.",
             "Notification System: Users get notifications when meetings are booked, canceled, or updated."
         ],
-        "technologies": ["Next.js", "React", "MongoDB", "CSS", "Tailwind CSS", ],
+        "technologies": ["Next.js", "React", "MongoDB", "CSS", "Tailwind CSS"],
         "liveLink": "https://meetwise-one.vercel.app",
         "githubClient": "https://github.com/2244jhalak/meetwise",
         "githubServer": "https://github.com/2244jhalak/meetwise",
